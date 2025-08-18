@@ -13,34 +13,31 @@ int main(){
     int numerosdepontosturisticos;
 
     printf("Qual o nome do estado: \n");
-    scanf("%s, &estado");
+    scanf("%s", &estado);
 
     printf("Qual o codigo: \n");
-    scanf("%s, &codigo");
+    scanf("%s", &codigo);
 
-    printf("")
+    printf("Digite o nome da cidade: \n");
+    scanf("%s", &nomedacidade);
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    printf("Qual a população: \n");
+    scanf("%d", &populacao);
+
+    printf("Tamanho da area: \n");
+    scanf("%f", &area);
+
+    printf("Qual o BIP: \n");
+    scanf("%f", &pib);
+
+    printf("Quantos pontos turisticos: \n");
+    scanf("%d", &numerosdepontosturisticos);
+
+    printf("O nome do estado é: %s - o código é: %s\n", estado, codigo);
+    printf("O nome da cidade é: %s - A população é de: %d", nomedacidade, populacao);
+    printf("o tamanho da area é: %fkm - O PIB é de: %f\n", area, pib);
+    printf("Numeros de pontos turisticos são de: %d", numerosdepontosturisticos);
+
     return 0;
 
-
-
-
-
-
-    
 }
