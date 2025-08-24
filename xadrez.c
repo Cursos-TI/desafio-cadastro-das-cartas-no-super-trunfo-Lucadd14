@@ -38,7 +38,6 @@ int main(){
     printf("o tamanho da area é: %skm2 - O PIB é de: (R$) %ld\n", area, pib);
     printf("Numeros de pontos turisticos são de: %d\n", numerosdepontosturisticos);
     
-
     return 0;
 
 }
