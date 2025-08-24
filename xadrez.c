@@ -4,7 +4,7 @@ int main(){
 
     printf("Carta01\n");
 
-    char estado;
+    char estado[50];
     char codigo;
     char nomedacidade[100];
     int populacao;
@@ -33,10 +33,10 @@ int main(){
     printf("Quantos pontos turisticos: \n");
     scanf("%d", &numerosdepontosturisticos);
 
-    printf("O nome do estado é: %s - o código é: %s\n", estado, codigo);
-    printf("O nome da cidade é: %s - A população é de: %d", nomedacidade, populacao);
-    printf("o tamanho da area é: %fkm - O PIB é de: %f\n", area, pib);
-    printf("Numeros de pontos turisticos são de: %d", numerosdepontosturisticos);
+    printf("o nome do estado é: %s", estado, codigo);
+    printf("O nome da cidade é: %s - A população é de: %d\n", nomedacidade, populacao);
+    printf("o tamanho da area é: %f km - O PIB é de: %f\n", area, pib);
+    printf("Numeros de pontos turisticos são de: %d\n", numerosdepontosturisticos);
 
     return 0;
 
